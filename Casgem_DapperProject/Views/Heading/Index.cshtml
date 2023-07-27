@@ -14,7 +14,10 @@
                 <td>@item.HeadingID</td>
                 <td>@item.HeadingName</td>
                 <td>@item.HeadingStatus</td>
+                <td><a class="btn btn-warning" href="/Heading/DeleteHeading/@item.HeadingID">Sil</a></td>
+                <td><a class="btn btn-success" href="/Heading/UpdateHeading/@item.HeadingID">Güncelle</a></td>
             </tr>
         }
     </table>
+    <a href="/Heading/AddHeadding" class="btn btn-outline-info">Yeni Başlık</a>
 </div>
